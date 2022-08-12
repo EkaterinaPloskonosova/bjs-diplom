@@ -92,7 +92,7 @@ favoritesWidget.addUserCallback = (data) => (
         } else {
             favoritesWidget.setMessage(response.success, response.error);
         }
-    })
+    });
 );
 
 //Удаление пользователя из избранного
@@ -106,5 +106,5 @@ favoritesWidget.removeUserCallback = (data) => (
         } else {
             favoritesWidget.setMessage(response.success, response.error);
         }
-    })
+    });
 )
