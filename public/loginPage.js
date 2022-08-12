@@ -22,5 +22,4 @@ userForm.registerFormCallback = (data) => {
             userForm.setRegisterErrorMessage(response.error);
         }
     }); 
-}
-console.log(userForm);
+};
